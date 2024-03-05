@@ -9,6 +9,8 @@ Parameter-Efficient Transfer Learning for Point Cloud Analysis</h1>
 
 (*) equal contribution, (​✉️​) corresponding author.
 
+ArXiv ([arXiv:2403.01439](https://arxiv.org/abs/2403.01439))
+
 </div>
 
 ## 📣 News
@@ -135,7 +137,7 @@ If you find this repository useful in your research, please consider giving a st
 @inproceedings{zhou2024dynamic,
   title={Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Transfer Learning for Point Cloud Analysis},
   author={Xin Zhou and Dingkang Liang and Wei Xu and Xingkui Zhu and Yihan Xu and Zhikang Zou and Xiang Bai},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision and Pattern Recognition},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2024}
 }
 ```
