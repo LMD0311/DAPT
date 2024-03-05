@@ -15,8 +15,8 @@ ArXiv ([arXiv:2403.01439](https://arxiv.org/abs/2403.01439))
 
 ## 📣 News
 
-- **[2024.03.02]** ✨ Release the code and checkpoint.🥳🥳
-- **[2024.02.26]** 🎉 Our paper DAPT is accepted by **CVPR 2024**!🎉🎉
+- **[02/Mar/2024]** ✨ Release the code and checkpoint. 😊😊
+- **[26/Feb/2024]** 🎉 Our paper DAPT is accepted by **CVPR 2024**! 🥳🥳
 
 ## Abstract
 
