@@ -56,6 +56,7 @@ $ conda activate dapt
 
 # GPU kNN
 (dapt) $ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
+(dapt) $ pip install torch-scatter
 ```
 
 ### Datasets
