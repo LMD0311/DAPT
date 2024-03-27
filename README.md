@@ -69,17 +69,17 @@ See [DATASET.md](./DATASET.md) for details.
 
 ### Pretrain
 
-To fine-tune on downstream tasks, you may need to download the pre-trained checkpoint, e.g. [Point-MAE](https://github.com/Pang-Yatian/Point-MAE/releases/download/main/pretrain.pth).
+To fine-tune on downstream tasks, you may need to download or reproduce the pre-trained checkpoint.
 
 ## Main Results (Point-MAE)
 
 
-| Task           | Dataset      | Trainable Parameters | Config                                                       | Acc.   |                     Checkpoints Download                     |
-| :------------- | :----------- | :------------------: | :----------------------------------------------------------- | :----- | :----------------------------------------------------------: |
-| Classification | ScanObjectNN |         1.1M         | [finetune_scan_objbg_dapt.yaml](./cfgs/finetune_scan_objbg_dapt.yaml) | 90.88% | [OBJ-BG](https://github.com/LMD0311/DAPT/releases/download/ckpt/scan_objbg.pth) |
-| Classification | ScanObjectNN |         1.1M         | [finetune_scan_objonly_dapt.yaml](./cfgs/finetune_scan_objonly_dapt.yaml) | 90.19% | [OBJ-ONLY](https://github.com/LMD0311/DAPT/releases/download/ckpt/scan_objonly.pth) |
-| Classification | ScanObjectNN |         1.1M         | [finetune_scan_hardest_dapt.yaml](./cfgs/finetune_scan_hardest_dapt.yaml) | 85.08% | [PB-T50-RS](https://github.com/LMD0311/DAPT/releases/download/ckpt/scan_hardest.pth) |
-| Classification | ModelNet40   |         1.1M         | [finetune_modelnet_dapt.yaml](./cfgs/finetune_modelnet_dapt.yaml) | 93.5%  | [ModelNet-1k](https://github.com/LMD0311/DAPT/releases/download/ckpt/modelnet.pth) |
+| Task           | Dataset      | Trainable Parameters | Config                                                       | Acc.   |                     Checkpoints Download                     | logs                                                         |
+| :------------- | :----------- | :------------------: | :----------------------------------------------------------- | :----- | :----------------------------------------------------------: | ------------------------------------------------------------ |
+| Classification | ScanObjectNN |         1.1M         | [finetune_scan_objbg_dapt.yaml](./cfgs/finetune_scan_objbg_dapt.yaml) | 90.88% | [OBJ-BG](https://github.com/LMD0311/DAPT/releases/download/ckpt/scan_objbg.pth) | [scan_objbg.log](https://github.com/LMD0311/DAPT/releases/download/ckpt/scan_objbg.log) |
+| Classification | ScanObjectNN |         1.1M         | [finetune_scan_objonly_dapt.yaml](./cfgs/finetune_scan_objonly_dapt.yaml) | 90.19% | [OBJ-ONLY](https://github.com/LMD0311/DAPT/releases/download/ckpt/scan_objonly.pth) | [scan_objonly.log](https://github.com/LMD0311/DAPT/releases/download/ckpt/scan_objonly.log) |
+| Classification | ScanObjectNN |         1.1M         | [finetune_scan_hardest_dapt.yaml](./cfgs/finetune_scan_hardest_dapt.yaml) | 85.08% | [PB-T50-RS](https://github.com/LMD0311/DAPT/releases/download/ckpt/scan_hardest.pth) | [scan_hardest.log](https://github.com/LMD0311/DAPT/releases/download/ckpt/scan_hardest.log) |
+| Classification | ModelNet40   |         1.1M         | [finetune_modelnet_dapt.yaml](./cfgs/finetune_modelnet_dapt.yaml) | 93.5%  | [ModelNet-1k](https://github.com/LMD0311/DAPT/releases/download/ckpt/modelnet.pth) | [modelnet.log](https://github.com/LMD0311/DAPT/releases/download/ckpt/modelnet.log) |
 
 
 The evaluation commands with checkpoints should be in the following format:
