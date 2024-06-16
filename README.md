@@ -124,12 +124,6 @@ CUDA_VISIBLE_DEVICES=<GPU> python main.py --config cfgs/tsne/finetune_scan_harde
 ```
 You can also make your own config for other visualization. 😍😍
 
-## To Do
-
-- [x] Release code for classification.
-- [x] Release checkpoints.
-- [ ] Release code for part segmentation.
-
 ## Acknowledgements
 
 This project is based on Point-BERT ([paper](https://arxiv.org/abs/2111.14819), [code](https://github.com/lulutang0608/Point-BERT)), Point-MAE ([paper](https://arxiv.org/abs/2203.06604), [code](https://github.com/Pang-Yatian/Point-MAE)), ACT([paper](https://arxiv.org/abs/2212.08320), [code](https://github.com/RunpeiDong/ACT)), ReCon ([paper](https://arxiv.org/abs/2302.02318), [code](https://github.com/qizekun/ReCon)), IDPT ([paper](https://arxiv.org/abs/2304.07221), [code](https://github.com/zyh16143998882/ICCV23-IDPT)). Thanks for their wonderful works.
@@ -141,8 +135,9 @@ If you find this repository useful in your research, please consider giving a st
 ```bibtex
 @inproceedings{zhou2024dynamic,
   title={Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Transfer Learning for Point Cloud Analysis},
-  author={Xin Zhou and Dingkang Liang and Wei Xu and Xingkui Zhu and Yihan Xu and Zhikang Zou and Xiang Bai},
+  author={Zhou, Xin and Liang, Dingkang and Xu, Wei and Zhu, Xingkui and Xu, Yihan and Zou, Zhikang and Bai, Xiang},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={14707--14717},
   year={2024}
 }
 ```
