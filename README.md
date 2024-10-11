@@ -20,6 +20,7 @@ Parameter-Efficient Transfer Learning for Point Cloud Analysis</h1>
 
 ## 📣 News
 
+- **[11/Oct/2024]** 🚀 Check out our latest efficient fine-tuning work **[PointGST](https://github.com/jerryfeng2003/PointGST)** which achieves **99.48%**, **97.76%**, and **96.18%** overall accuracy on the ScanObjNN OBJ_BG, OBJ_OBLY, and PB_T50_RS datasets, respectively.
 - **[02/Mar/2024]** ✨ Release the code and checkpoint. 😊😊
 - **[26/Feb/2024]** 🎉 Our paper DAPT is accepted by **CVPR 2024**! 🥳🥳
 
